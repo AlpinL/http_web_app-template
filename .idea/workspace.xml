@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86752978-9d75-4340-9a88-fa72dd82ada3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/web_client/internal/settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web_client/internal/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.giignore" beforeDir="false" afterPath="$PROJECT_DIR$/.giignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web_client/internal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web_client/internal/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lC38qPA3cARRoZLONjCol90i0z" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.48" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="stylesheet.code.style.group" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86752978-9d75-4340-9a88-fa72dd82ada3" name="Default Changelist" comment="" />
+      <created>1607087089335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607087089335</updated>
+      <workItem from="1607087090696" duration="8705000" />
+      <workItem from="1607163851063" duration="3023000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="225" y="68" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607088364452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="225" y="68" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607088364452" />
+    <state width="757" height="206" key="GridCell.Tab.0.bottom" timestamp="1607166229662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="757" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607166229662" />
+    <state width="757" height="206" key="GridCell.Tab.0.center" timestamp="1607166229662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="757" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607166229662" />
+    <state width="757" height="206" key="GridCell.Tab.0.left" timestamp="1607166229662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="757" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607166229662" />
+    <state width="757" height="206" key="GridCell.Tab.0.right" timestamp="1607166229662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="757" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607166229662" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1607087708224">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607087708224" />
+  </component>
+</project>
