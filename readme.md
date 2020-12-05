@@ -1,2 +1,2 @@
 This is a web app template
-Without DB connection
+Without DB connection yet
