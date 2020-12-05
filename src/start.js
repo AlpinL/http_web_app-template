@@ -55,9 +55,48 @@ function setHttpRouteSetup(on) {
 	on('GET', '/', onIndex);
 	on('GET', '/welcome', onWelcome);
 	on('GET', '/settings', onSettings);
+	on('GET', '/manageMyData', onClientJavascript);
+	on('GET', '/ui.css', onClientCss);
 
 	on('POST', '/test', onHttpPostTest);
 	on('*', '*', onHttpAnyAny);
+}
+
+/*
+if (ext === 'css') {
+	response.setHeader('Content-Type', 'text/css');
+	response.end(FileSystem.readFileSync(`${server.dirs.css}/${request.url}`));
+	return;
+}
+
+if (ext === 'js') {
+	response.setHeader('Content-Type', 'application/javascript');
+	response.end(FileSystem.readFileSync(`${server.dirs.js}/${request.url}`));
+	return;
+}
+ */
+
+function onClientCss(request, response) {
+	console.log('onClientCss');
+
+	// response.setHeader('Content-Type', 'application/javascript');
+	// response.end(FileSystem.readFileSync(`${server.dirs.js}/${request.url}`));
+	const filePath = Path.join(APP_DIR, 'src/web_client', 'internal/ui.css');
+	const ext = Path.extname(filePath);
+	response.setHeader('content-type', MimeType.toMimeType(ext));
+	const readStream = FileSystem.createReadStream(filePath);
+	readStream.pipe(response);
+}
+
+
+function onClientJavascript(request, response) {
+	// response.setHeader('Content-Type', 'application/javascript');
+	// response.end(FileSystem.readFileSync(`${server.dirs.js}/${request.url}`));
+	const filePath = Path.join(APP_DIR, 'src/web_client', 'internal/manageMyData.js');
+	const ext = Path.extname(filePath);
+	response.setHeader('content-type', MimeType.toMimeType(ext));
+	const readStream = FileSystem.createReadStream(filePath);
+	readStream.pipe(response);
 }
 
 function onIndex(request, response) {
